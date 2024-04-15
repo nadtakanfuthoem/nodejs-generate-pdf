@@ -1,0 +1,17 @@
+{
+  "name": "hello_world",
+  "version": "1.0.0",
+  "description": "hello world sample for NodeJS",
+  "main": "app.js",
+  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.554.0",
+    "@sparticuz/chromium": "112.0.2",
+    "puppeteer-core": "19.8.0"
+  },
+  "scripts": {
+    "deploy": "sam build && sam deploy"
+  }
+}
